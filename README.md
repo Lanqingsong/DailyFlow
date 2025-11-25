@@ -122,4 +122,4 @@ This project was built iteratively using AI prompts. Below is a summary of the k
 ## License
 
 MIT License.
-Copyright (c) 2025 Lan 874953727@qq.com.
+Copyright (c) 2024 Lan.
