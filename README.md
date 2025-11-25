@@ -32,6 +32,39 @@ MindFlow is a personal growth application designed to track habits, plans, and d
 
 ### Phase 1: Web Assets Build (Required for all platforms)
 
+
+方法一：使用 Capacitor（推荐）
+1. 安装 Capacitor
+cmd
+npm install @capacitor/core @capacitor/cli
+npm install @capacitor/android
+npx cap init MindFlowDiary com.yourname.mindflowdiary
+2. 构建项目
+cmd
+npm run build
+3. 添加 Android 平台
+cmd
+npx cap add android
+npx cap copy android
+npx cap sync android
+4. 打开 Android Studio 并构建 APK
+cmd
+npx cap open android
+在 Android Studio 中：
+
+等待 Gradle 同步完成
+
+点击 Build > Generate Signed Bundle / APK
+
+选择 APK
+
+创建或使用现有的密钥库
+
+完成构建
+
+
+
+
 Before building for Android or iOS, you must compile your React code into static HTML/JS/CSS.
 
 ```bash
