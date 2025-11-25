@@ -1,0 +1,9 @@
+{
+  "name": "DailyFlow - Habit & Plan Tracker",
+  "description": "A comprehensive mobile-first application for habit tracking, daily planning, and mood journaling with rich media support and statistical insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
